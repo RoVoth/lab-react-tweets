@@ -7,7 +7,7 @@ import Action from "./Actions";
 function Tweet(props) {
   return (
     <div className="tweet">
-      {/* accedemos a el atributo */}
+      {/* accedemos colocando todos los atributos correcpondientes */}
       <ProfileImage image={props.tweet.user.image} />
 
       <div className="body">
